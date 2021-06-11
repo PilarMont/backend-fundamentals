@@ -1,0 +1,466 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+
+.header{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.actions *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a{
+    color: #67b54b;
+    
+}
+
+.actions button{
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    border:0;
+    border-radius: 5px;
+    
+}
+.actions a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+.promo{
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+  }
+.publish h3{
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+.publish p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+.build{
+    margin-top: 285px;
+    text-align: center;
+}
+.build h1{
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.build h4{
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.signup-form{
+    height: 100%;
+    border-radius: 8px;
+    text-align: center;
+}
+.signup-form input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+.signup-form button{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.signup-form p{
+    text-align: center;
+    margin: 15px 0 16px;
+}
+
+figure.intro img {
+    width: 70%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/*cards*/
+.features {
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+    background-color: #025157;
+    padding: 5% 10%;
+  }
+
+.feature-card{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.features .feature-card .feature-content{ 
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.features .feature-card .feature-content img {
+    width: 50px;
+  }
+  .features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+  }
+
+  .features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+  }
+  .features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.success-stories{
+    display: flex;
+    align-items: center;
+    background-color: #a1d683;
+    padding: 5% 15%;
+    justify-content: space-around;
+
+}
+
+.success-stories h2{
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+.success-stories p{
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 15px;
+}
+.success-stories button{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+    background-color: #025157;
+    color: #fff;
+    border: none;
+}
+
+.success-stories img{
+    width: 500px;
+    max-width: 100%;
+   
+}
+.stories.carousel{
+    flex: 1;
+}
+
+.card-media img{
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.company img{
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img{
+    vertical-align: middle;
+    border-style: none;
+}
+.card-body h4{
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.card-body h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.results{
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+.company{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Steps cards with grid*/
+
+.how-does-it-work{
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.how-does-it-work .title{
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 8px;
+
+}
+
+.how-does-it-work .description{
+    max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.how-does-it-work button{
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+}
+.how-does-it-work .steps{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-step{
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.card-step .card-image .card-step-bg {
+    position: relative;
+    height: 350px;
+}
+
+.how-does-it-work .steps .card-step .card-body {
+    padding: 25px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image-card-step-bg{
+    width: 100%;
+    height: 100%;   
+}
+
+.card-step-icon{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.how-does-it-work .steps .card-step .card-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+}
+.how-does-it-work .steps .card-step .card-body p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #46484c;
+        font-weight: 400;
+        height: 85px;
+        margin-bottom: 16px;
+}
+.how-does-it-work .steps .card-step .card-body a {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+@media (max-width: 575px) {
+    body {
+      background-color: yellow;
+    }
+}
+@media (max-width: 575px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
+  }
+  @media (max-width: 575px) {
+    /** Media queries previos al banner **/
+    .banner > img {
+      width: 100%;
+    }
+  }
+  @media (max-width: 575px) {
+    /** Media queries previos al banner **/
+    .promo {
+      flex-direction: column;
+      max-width: 90%; max-width: 90%;
+    }
+    .explanatory-video > video {
+    width: 100%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}
